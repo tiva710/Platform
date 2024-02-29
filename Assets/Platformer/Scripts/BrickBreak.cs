@@ -15,7 +15,7 @@ public class BrickBreak : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Check if left mouse button was clicked
+        if (Input.GetMouseButtonDown(0)) 
         {
             RaycastHit hit;
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
@@ -27,6 +27,7 @@ public class BrickBreak : MonoBehaviour
                 if (hitObject.CompareTag("Brick")) // Check if the object is a brick
                 {
                     Destroy(hitObject); 
+                    gameManager.AddScore(100);
                     // Add coin logic 
                 }
                 else if (hitObject.CompareTag("QuestionBox")) // Check if the object is a question box

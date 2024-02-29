@@ -354,6 +354,7 @@
 "Assets/Platformer/Scripts/CameraBehavior.cs"
 "Assets/Platformer/Scripts/GameManager.cs"
 "Assets/Platformer/Scripts/LevelParser.cs"
+"Assets/Platformer/Scripts/PlayerController.cs"
 -langversion:9.0
 
 /deterministic

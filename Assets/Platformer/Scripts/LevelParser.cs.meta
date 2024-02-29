@@ -3,7 +3,14 @@ guid: 9e6568559d6661b4eba05e67f1401a83
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - rockPrefab: {instanceID: 0}
+  - brickPrefab: {instanceID: 0}
+  - questionBoxPrefab: {instanceID: 0}
+  - stonePrefab: {instanceID: 0}
+  - waterPrefab1: {fileID: 7256331727853824939, guid: 0aacbc81682b8414ab00a3d148ec4260, type: 3}
+  - waterPrefab2: {fileID: 281625977367282798, guid: 6b3bab6e8a17d4c3ba7c42d052dcb3b6, type: 3}
+  - environmentRoot: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

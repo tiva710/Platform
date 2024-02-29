@@ -6,6 +6,7 @@ TagManager:
   tags:
   - QuestionBox
   - Brick
+  - Ground
   layers:
   - Default
   - TransparentFX
